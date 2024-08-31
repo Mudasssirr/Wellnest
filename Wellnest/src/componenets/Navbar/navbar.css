@@ -1,0 +1,103 @@
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.navbar,
+.dropdown-item {
+    font-size: 15px !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-close {
+    --bs-btn-close-focus-shadow: none;
+}
+
+.navigation-link{
+    padding: 3px !important;
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+.nav-link:hover, .navigation-link:hover {
+    color: #00a78c;
+}
+
+.login-btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+.login-btn {
+    background-color: #00a78c;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #f8f9fa;
+    border-color: #00a78c;
+    color: #00a78c;
+}
+
+.login-btn:active {
+    opacity: 0.8;
+}
+
+.logout-btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+.logout-btn {
+    background-color: #fff;
+    color: red;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 8px 0px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.logout-btn:active {
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .login-btn-container, .logout-btn-container  {
+        margin-top: 10px;
+        justify-content: start;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-toggler {
+        margin-right: -30px !important;
+    }
+
+    .navbar-brand {
+        margin-left: -20px !important;
+    }
+}

@@ -1,0 +1,173 @@
+.MainLayout-Container {
+    width: 90%;
+    height: 80vh;
+    background-color: #f8f9fa;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.MainLayout-Heading h2 {
+    font-size: 35px;
+}
+
+.MainLayout-Heading h1 {
+    font-size: 45px;
+}
+
+.Important-Txt {
+    color: #00a78c;
+    font-weight: 900;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+}
+
+.col {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.MainLayout-Img1 {
+    height: 100px;
+    width: 270px;
+    object-fit: cover;
+    border: 6px solid #00a78c;
+    border-radius: 10px;
+    margin: 10px 10px 0px 0px;
+}
+
+.MainLayout-Img2 {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    border: 6px solid #00a78c;
+    border-radius: 10px;
+    margin: 10px 10px 0px 0px;
+}
+
+.MainLayout-Img3 {
+    height: 150px;
+    width: 160px;
+    object-fit: cover;
+    border: 6px solid #00a78c;
+    border-radius: 10px;
+    margin: 10px 10px 0px 0px;
+}
+
+.MainLayout-Img4 {
+    height: 150px;
+    width: 270px;
+    object-fit: cover;
+    border: 6px solid #00a78c;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.MainLayout-Img5 {
+    height: 150px;
+    width: 440px;
+    object-fit: cover;
+    border: 6px solid #00a78c;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.design-Container {
+    background-color: #00a78c;
+    width: 10%;
+    height: 80vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .MainLayout-Container {
+        display: block;
+        margin-top: 55px;
+        height: 100vh;
+        width: 100%;
+        padding-right: 0px;
+        background-color: #fff;
+    }
+
+    .img-container {
+        margin-top: 40px;
+    }
+
+    .design-Container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .MainLayout-Heading h2 {
+        font-size: 30px;
+    }
+
+    .MainLayout-Heading h1 {
+        font-size: 38px;
+    }
+
+    .MainLayout-Img1 {
+        width: 160px;
+    }
+
+    .MainLayout-Img3 {
+        width: 145px;
+    }
+
+    .MainLayout-Img4 {
+        width: 170px;
+    }
+
+    .MainLayout-Img5 {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .MainLayout-Container {
+        height: 93vh;
+    }
+
+    .MainLayout-Heading h2 {
+        font-size: 27px;
+    }
+
+    .MainLayout-Heading h1 {
+        font-size: 33px;
+    }
+
+    .img-container {
+        margin-top: 20px;
+    }
+
+    .MainLayout-Img1 {
+        width: 144px;
+    }
+
+    .MainLayout-Img2 {
+        width: 109px;
+    }
+
+    .MainLayout-Img3 {
+        width: 120px;
+    }
+
+    .MainLayout-Img4 {
+        width: 137px;
+    }
+
+    .MainLayout-Img5 {
+        width: 270px;
+    }
+}

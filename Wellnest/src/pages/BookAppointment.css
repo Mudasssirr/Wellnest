@@ -1,0 +1,178 @@
+.Filter-Featured-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Filter-Featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #00a78c;
+    width: 80%;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.Filter-Tag-Container {
+    width: 100%;
+}
+
+.BA-Search-Input {
+    padding: 10px 4px;
+    width: 100%;
+    border: 1px solid #00a78c;
+    border-radius: 5px;
+}
+
+.Feature-Btn {
+    padding: 10px 4px;
+    border: none;
+    border-radius: 5px;
+    color: #00a78c;
+    background-color: #fff;
+    font-weight: 500;
+    width: 100px;
+}
+
+.Feature-Btn:active {
+    opacity: 0.8;
+}
+
+.Appointment-Para-Container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin: 50px 0px;
+}
+
+.Appointment-Para-Container p {
+    width: 60%;
+}
+
+.Featured-Cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 50px;
+    gap: 10px;
+}
+
+.BA-Error-404{
+    font-size: 16px;
+}
+
+.Doctor-Card {
+    text-align: center;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 8px;
+    padding: 3px;
+    width: 270px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Doctor-Img {
+    width: 260px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Doctor-Name {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.Doctor-Field {
+    color: #00a78c;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.Doctor-PV-Container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Doctor-Fee {
+    color: green;
+    font-weight: 600;
+}
+
+.Doctor-Review {
+    color: goldenrod;
+    font-weight: 600;
+}
+
+.Doctor-Profile-Btn {
+    font-size: 14px;
+    border: none;
+    background-color: #fff;
+    color: #00a78c;
+    width: 93%;
+    border: 1px solid #00a78c;
+    border-radius: 7px;
+    padding: 8px 0px;
+    margin-bottom: 8px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.Doctor-Profile-Btn:hover {
+    background-color: #00a78c;
+    color: #fff;
+    border-color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .Filter-Featured {
+        width: 90%;
+    }
+
+    .Appointment-Para-Container p {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .Filter-Featured {
+        display: block;
+        width: 93%;
+        font-size: 15px;
+    }
+
+    .Filter-Tag-Container,
+    .Feature-Btn-Container {
+        margin: 5px 0px;
+    }
+
+    .Feature-Btn {
+        width: 100%;
+    }
+
+    .Appointment-Para-Container {
+        margin: 35px 0px;
+    }
+
+    .Appointment-Para-Container p {
+        width: 93%;
+    }
+
+    .Featured-Cards {
+        margin: 0px;
+    }
+
+    .Doctor-Card {
+        font-size: 15px;
+        width: 240px;
+    }
+
+    .Doctor-Img {
+        width: 230px;
+    }
+}

@@ -1,0 +1,131 @@
+.Blog-Search-Input {
+    padding: 10px 4px;
+    width: 100%;
+    border: 1px solid #00a78c;
+    border-radius: 5px;
+}
+
+.Blog-Search-Btn {
+    padding: 10px 4px;
+    border: none;
+    border-radius: 5px;
+    color: #00a78c;
+    background-color: #fff;
+    font-weight: 500;
+    width: 100px;
+}
+
+.Blog-Search-Btn:active {
+    opacity: 0.8;
+}
+
+.OB-Error-404{
+    font-size: 16px;
+}
+
+.Blogs-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 70px;
+}
+
+.Blogs-Inner-Container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.Blogs-Img {
+    width: 90%;
+    border-radius: 7px;
+}
+
+.Blogs-Text-Container {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.Blogs-Date {
+    font-size: 14px;
+    color: gray;
+}
+
+.Blogs-Heading{
+    color: #00a78c;
+    font-size: 22px;
+}
+
+.Blogs-Paragraph{
+    color: gray;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+.Blog-Btn-Container {
+    margin: 0px;
+}
+
+.Blog-Read-More-Btn {
+    background-color: #00a78c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.Blog-Read-More-Btn:hover {
+    background-color: #f8f9fa;
+    border-color: #00a78c;
+    color: #00a78c;
+}
+
+@media only screen and (max-width: 767px) {
+    .Blogs-Container {
+        gap: 40px;
+    }
+
+    .Blogs-Inner-Container {
+        display: block;
+    }
+
+    .Blogs-Img {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .Blogs-Text-Container {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    .Blog-Search-Btn-Container {
+        margin: 5px 0px;
+    }
+
+    .Blog-Search-Btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Blogs-Img {
+        width: 100%;
+    }
+
+}

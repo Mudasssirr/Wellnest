@@ -1,0 +1,113 @@
+.AboutPage-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0px;
+}
+
+.AboutPage-Inner-Container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.AboutPage-Text-Container {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.AboutPage-Heading {
+    color: #00a78c;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.AboutPage-Paragraph {
+    color: gray;
+}
+
+.AboutPage-Img-Container {
+    position: relative;
+}
+
+.AboutPage-Img1 {
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.AboutPage-Img2 {
+    width: 180px;
+    border-radius: 7px;
+    position: absolute;
+    right: 80px;
+    bottom: -20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+@media only screen and (max-width: 1115px) {
+    .AboutPage-Img2 {
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .AboutPage-Img2 {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .AboutPage-Img2 {
+        right: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .AboutPage-Container {
+        margin-top: 60px;
+    }
+
+    .AboutPage-Heading {
+        font-size: 35px;
+    }
+
+    .AboutPage-Paragraph {
+        font-size: 15px;
+    }
+
+    .AboutPage-Img-Container {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .AboutPage-Inner-Container{
+        flex-direction: column;
+    }
+
+    .AboutPage-Text-Container {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .AboutPage-Img2 {
+        right: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .AboutPage-Img1 {
+        width: 180px;
+    }
+
+    .AboutPage-Img2 {
+        width: 145px;
+        right: 20px;
+    }
+}

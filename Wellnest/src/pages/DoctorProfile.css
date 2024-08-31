@@ -1,0 +1,258 @@
+.DP-Error-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DP-Error {
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgb(235, 169, 169);
+    width: 80%;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.Doctor-Links {
+    margin-top: -14px;
+    padding-bottom: 10px;
+    background-color: #01b698;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.Doctor-Links a,
+.Doctor-Links p {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Doctor-Links a:hover {
+    text-decoration: underline;
+}
+
+.Doctor-Detail-Container {
+    background-color: #01b698;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 30px 0px;
+}
+
+.DP-Img-Container {
+    margin: 0px 30px;
+}
+
+.DP-Img {
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.DP-Doctor-Name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.DP-Doctor-Field,
+.DP-Doctor-Specialization,
+.DP-Doctor-Fees {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.DP-Description {
+    margin-top: 15px;
+    margin-left: 30px;
+    color: gray;
+    font-size: 15px;
+    white-space: pre-wrap;
+}
+
+.light-text {
+    font-weight: 300;
+}
+
+.Appointment-Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.custom-calendar .rdrCalendarWrapper {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px !important;
+}
+
+.rdrMonth{
+    width: 100% !important;
+}
+
+.rdrSelected {
+    background-color: #01b698 !important;
+}
+
+.Time-Select-Container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 5px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px !important;
+}
+
+.Time-Select-Container button {
+    border: none;
+    background-color: #fff;
+    border: 2px solid #01b698;
+    border-radius: 6px;
+    padding: 7px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.Time-Select-Container button:hover {
+    color: #fff;
+    background-color: #01b698;
+}
+
+.Time-Select-Container button.selected {
+    color: #fff;
+    background-color: #01b698;
+}
+
+.Selected-Date-Display {
+    background-color: #01b698;
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.Book-Appointment-Btn-Container{
+    text-align: center;
+    width: 34%;
+    margin-top: 30px;
+}
+
+.Book-Appointment-Btn{
+    background-color: #01b698;
+    color: #fff;
+    border: 1px solid #01b698;
+    width: 130px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 7px;
+}
+
+.Book-Appointment-Btn:active{
+    opacity: 0.8;
+}
+
+.DP-Loader-Container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DP-Loader {
+    width: 60px;
+    height: 60px;
+}
+
+@media only screen and (max-width: 1032px) {
+    .Time-Select-Container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .Appointment-Container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Time-Select-Container {
+        width: 90%;
+    }
+
+    .Time-Select-Container button, .Selected-Date-Display {
+        font-size: 15px;
+    }
+
+    .Book-Appointment-Btn-Container{
+        width: 100%;
+    }
+
+    .Book-Appointment-Btn{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Doctor-Detail-Container {
+        display: block;
+        text-align: center;
+    }
+
+    .DP-Img {
+        width: 230px;
+    }
+
+    .DP-Doctor-Details {
+        margin: 10px 8px 0px 8px;
+    }
+
+    .DP-Doctor-Name {
+        font-size: 24px;
+    }
+
+    .DP-Doctor-Field,
+    .DP-Doctor-Specialization,
+    .DP-Doctor-Fees {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .Doctor-Links {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .DP-Img-Container {
+        margin: 0px 9px;
+    }
+
+    .DP-Description {
+        margin-left: 9px;
+        margin-right: 5px;
+    }
+
+    .DP-Error {
+        font-size: 14px;
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .DP-Doctor-Field,
+    .DP-Doctor-Specialization,
+    .DP-Doctor-Fees {
+        font-size: 16px;
+    }
+
+    .DP-Img {
+        width: 215px;
+    }
+}

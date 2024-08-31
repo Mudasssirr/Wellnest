@@ -1,0 +1,12 @@
+.Page-Heading-Container {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.Page-Heading span {
+    color: #00a78c;
+    font-weight: 600;
+}

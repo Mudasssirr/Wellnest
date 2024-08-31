@@ -1,0 +1,68 @@
+.Accordion-Button {
+    background-color: #00a78c;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.Accordion-Card {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Card {
+    border: none;
+    margin: -1px 0px;
+}
+
+.Card-Header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px !important;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    border: 1px solid #f1f1f1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .Accordion-Card {
+        width: 87%;
+    }
+
+    .Card-Header {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Accordion-Button {
+        padding: 4px 13px;
+        font-size: 20px;
+    }
+
+    .Card-Header{
+        gap: 10px;
+    }
+
+    .Card-Header,
+    .card-body {
+        font-size: 14px;
+    }
+}

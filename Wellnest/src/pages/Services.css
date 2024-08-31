@@ -1,0 +1,70 @@
+.Services-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.Services-Inner-Container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.Services-Text-Container {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.Services-Img {
+    width: 90%;
+    border-radius: 7px;
+}
+
+.Services-Heading {
+    color: #00a78c;
+}
+
+.Services-Paragraph {
+    color: gray;
+}
+
+@media only screen and (max-width: 767px) {
+    .Services-Inner-Container {
+        display: block;
+    }
+
+    .Services-Container {
+        gap: 40px;
+    }
+
+    .Services-Text-Container {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .Services-Img {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .Services-Heading {
+        font-size: 22px;
+    }
+
+    .Services-Paragraph {
+        font-size: 15px;
+    }
+
+    .Services-Img {
+        width: 100%;
+    }
+
+}

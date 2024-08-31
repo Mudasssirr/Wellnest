@@ -1,0 +1,150 @@
+.Forums-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Post-Loader-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.Forum-Cards {
+    width: 70%;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 20px 20px 15px 20px;
+    border-radius: 12px;
+    margin: 10px 0px;
+}
+
+.FM-Details {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.FM-Card-Img {
+    width: 70px;
+    border-radius: 40px;
+}
+
+.FM-Response-Card-Img {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.FM-Card-Name {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.bi-check-circle-fill{
+    color: #00a78c;
+}
+
+.FM-Card-Question {
+    color: gray;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.Forums-Question-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Forums-Questions {
+    width: 70%;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid rgb(179, 179, 179);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Question-Input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.Question-Send {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #00a78c;
+    border: 1px solid #00a78c;
+    border-radius: 12px;
+}
+
+.Question-Send:active {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .Forum-Cards,
+    .Forums-Questions {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .Forum-Cards,
+    .Forums-Questions {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .FM-Card-Img{
+        width: 55px;
+    }
+
+    .FM-Response-Card-Img{
+        width: 47px;
+        height: 47px;
+    }
+
+    .FM-Card-Name {
+        font-size: 17px;
+    }
+
+    .Question-Input {
+        font-size: 15px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .Question-Send {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .FM-Details{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .FM-Card-Img{
+        width: 60px;
+    }
+
+    .Forums-Questions {
+        flex-direction: column;
+    }
+
+    .Forum-Cards{
+        padding-left: 14px;
+    }
+}

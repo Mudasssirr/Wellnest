@@ -1,0 +1,52 @@
+.vertical-timeline-element-content {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+}
+
+.vertical-timeline::before {
+    background: #00a78c;
+    border-left: 3px dotted #00a78c;
+}
+
+.vertical-timeline-element-title {
+    color: #00a78c !important;
+    font-weight: 600;
+}
+
+.vertical-timeline-element-paragraph {
+    color: gray;
+    font-weight: 400 !important;
+}
+
+.vertical-timeline-element-icon {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: -20px !important;
+    background: rgb(0 170 144);
+    color: #fff;
+    border: 9px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) -1px 2px 11px 2px !important;
+}
+
+.vertical-timeline-element-icon .icon-content {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 1115px) {
+
+    .vertical-timeline-element-icon {
+        margin-left: 0px !important;
+    }
+
+    .vertical-timeline-element--work{
+        text-align: left !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .vertical-timeline-element-paragraph {
+        font-size: 14px !important;
+    }
+}

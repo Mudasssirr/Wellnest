@@ -1,0 +1,141 @@
+.Services-Txt {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Services-Txt h2 {
+    font-weight: 900;
+}
+
+.Services-Txt h5 {
+    font-size: 17px;
+    padding: 3px;
+}
+
+.Services-Cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Cards {
+    width: 330px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 20px 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+.card-Image-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-Img {
+    width: 60px;
+}
+
+.card-detail-container {
+    text-align: center;
+}
+
+.card-heading {
+    font-weight: bold;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.card-paragraph {
+    font-size: 13px;
+    color: gray;
+}
+
+.card-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card-btn {
+    font-size: 14px;
+    border: none;
+    background-color: #fff;
+    color: #00a78c;
+    width: 110px;
+    border: 1px solid #00a78c;
+    border-radius: 7px;
+    padding: 8px 0px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #00a78c;
+    color: #fff;
+    border-color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .separator {
+        height: 27vh;
+    }
+}
+
+@media only screen and (max-width: 842px) {
+    .separator {
+        height: 32vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .separator {
+        height: 24vh;
+    }
+}
+
+@media only screen and (max-width: 652px) {
+    .separator {
+        height: 29vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .separator {
+        height: 19vh;
+    }
+}
+
+@media only screen and (max-width: 511px) {
+    .separator {
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .separator {
+        height: 31vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .separator {
+        height: 15vh;
+    }
+}
+
+@media only screen and (max-width: 358px) {
+    .separator {
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 331px) {
+    .separator {
+        height: 25vh;
+    }
+}
